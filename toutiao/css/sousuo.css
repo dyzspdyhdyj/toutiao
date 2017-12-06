@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 0.8rem;
+    background: #c71f42;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header > input{
+    width:70%;
+    height:0.6rem;
+    background: #fff;
+    border-radius: 0.2rem;
+    display: block;
+    margin:0 auto;
+    border: none;
+    outline: none;
+    padding-left: 0.2rem;
+}
+header span{
+    position: absolute;
+    left: -19px;
+    top: -27px;
+    width: .9rem;
+    height: 1rem;
+    font-size: .5rem;
+    color:#fff;
+    text-align: center;
+    line-height: 1.3rem;
+    display: block;
+    /*background: black;*/
+}
+section{
+    width: 100%;
+    height: auto;
+    padding: .2rem .4rem;
+    border-bottom: .01rem solid rgba(203, 203, 203, 0.49);
+}
+section span{
+    width: auto;
+    height: auto;
+    font-size: .40rem;
+    color: #000;
+    background: #ff635e;
+    border-radius: .06rem;
+    margin-right: .2rem;
+}
+.content{
+    width:100%;
+    height:auto;
+}
+.content>.list{
+    width:95%;
+    margin:0 auto;
+    height:auto;
+    border-bottom: 0.01rem solid #EBEBEB;
+    padding:0.1rem 0;
+    overflow: hidden;
+}
+.content>.list a{
+    width: 100%;
+    float: left;
+    display: block;
+    height: auto;
+}
+.left{
+    width:40%;
+    height:auto;
+    overflow: hidden;
+    padding: 0.1rem;
+    float: left;
+}
+.left img{
+    width:90%;
+    height:3rem;
+}
+.right{
+    width:50%;
+    height:auto;
+    padding: 0.01rem;
+    font-size: 0.3rem;
+    line-height: 0.6rem;
+    color: #000;
+    font-weight: 500;
+    float: right;
+}
+.right>span{
+    width:5rem;
+    height: auto;
+    font-size: 0.2rem;
+    /*line-height: 0.6rem;*/
+    color: #e0e0e0;
+    font-weight: 500;
+    float: left;
+    padding-top: 0.1rem;
+    display: block;
+}
+.nopic>a div{
+    width:100%;
+    height:1.5rem;
+    font-size: 0.5rem;
+    color: #000;
+    font-weight: 500;
+}
+.nopic>a span{
+    display: block;
+    width:auto;
+    height:auto;
+    font-size: 0.5rem;
+    color: #000;
+    font-weight: 500;
+}
